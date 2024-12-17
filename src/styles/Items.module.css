@@ -1,13 +1,56 @@
 .smallbox {
-  height: 20%;
-  width: 20%;
-  border: solid red;
-  margin: 5vh;
-}
-
-#productImages {
+  height: 250px;
+  width: 400px;
   border: solid blue;
-  margin-left: auto;
+  margin-top: 10vh;
+  margin-right: 5%;
 }
 
+h2 {
+  text-align: end;
+  margin-right: 30%;
+}
+/* .starB {
+  border: solid lime;
+  float: right;
+  position: relative;
+} */
 
+.fakeImage {
+  height: 35vw;
+  width: 40vw;
+  border: solid magenta;
+  /* display: inline-block; */
+  margin-left: none;
+  position: relative;
+}
+
+/* Star {
+  border: solid cyan;
+} */
+
+.container {
+  border: solid teal;
+}
+
+.somethingContainer {
+  height: 10vh;
+  width: 10vw;
+  border: solid purple;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.ratingContainer {
+  border: solid orange;
+  height: 20vh;
+  width: 10vw;
+  float: right;
+  margin-right: 35%;
+}
+.container2 {
+  border: red;
+  margin-right: 50%;
+  float: left;
+}
