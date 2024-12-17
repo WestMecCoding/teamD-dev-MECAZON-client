@@ -1,0 +1,92 @@
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+  position: flex;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.modal {
+  /* filter: grayscale(2); */
+  background-color: rgba(0, 0, 0, 0.75);
+  /* border: solid cyan; */
+}
+
+.overylay {
+  background: black;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: whitesmoke;
+  padding: 10px 28px;
+  border-radius: 10px;
+  max-width: 600px;
+  min-width: 300px;
+  border: #f78e11 2px solid;
+  height: 62%;
+  width: 30%;
+  /* border: solid lime; */
+}
+
+.close-modal-container {
+  height: 35px;
+  width: 35px;
+  text-align: right;
+  border: solid transparent;
+  position: relative;
+  margin-left: auto;
+  padding-bottom: none;
+  margin-bottom: none;
+}
+
+.close-modal {
+  /* position: relative; */
+  top: 22vh;
+  /* right: 34%; */
+  padding: 5px 1px;
+  border: solid transparent;
+  background-color: whitesmoke;
+  /* margin-left: auto; */
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  line-height: 2;
+}
+
+input {
+  width: 70%;
+  line-height: 2;
+  text-align: center;
+}
+.submit-btn {
+  height: 30%px;
+  width: 20%;
+  background-color: #f78e11;
+  border: #f78e11 2px solid;
+  color: white;
+  border-radius: 5px;
+  font-weight: light;
+}

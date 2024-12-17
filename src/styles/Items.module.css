@@ -1,0 +1,13 @@
+.smallbox {
+  height: 20%;
+  width: 20%;
+  border: solid red;
+  margin: 5vh;
+}
+
+#productImages {
+  border: solid blue;
+  margin-left: auto;
+}
+
+
