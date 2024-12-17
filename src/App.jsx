@@ -9,14 +9,17 @@ import "./App.css";
 
 export default function App() {
   return (
-    <><Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/groceries" element={<Groceries />} />
-      </Routes>
-    </Router>
-    </>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/groceries" element={<Groceries />} />
 
+          {/* <Route path="/Item" element={<Item />} /> */}
+        </Routes>
+      </Router>
+      <Modal></Modal>
+    </>
   );
 }
