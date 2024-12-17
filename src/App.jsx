@@ -6,12 +6,14 @@ import Groceries from "./pages/Groceries";
 import "./App.css";
 export default function App() {
   return (
-    <Router>
+    <><Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/groceries" element={<Groceries />} />
       </Routes>
     </Router>
+    </>
+
   );
 }
